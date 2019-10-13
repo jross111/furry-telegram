@@ -11,9 +11,7 @@ export default class BlockchainData extends Component {
             .then(res => res.json())
             .then(res => this.setState({ data: res }))
 
-
     }
-
     render() {
 
 
