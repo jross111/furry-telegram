@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  background-color: thistle;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .btc {
@@ -18,6 +20,9 @@
 }
 
 p {
+  margin-left: 20px;
+  text-align: center;
+  text-decoration-style: wavy;
   background-color: thistle;
   border-style: solid;
 }

@@ -8,7 +8,10 @@ function App() {
     <div className="App">
       <header>
       </header>
-      <h1>Hello</h1>
+    
+      < BlockchainData />
+      < BlockchainData />
+      < BlockchainData />
       < BlockchainData />
 
     </div>
