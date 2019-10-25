@@ -6,6 +6,10 @@ export default class BlockchainData extends Component {
         data: {}
     }
 
+    componentWillMount(){
+        console.log("component will mount")
+    }
+
     componentDidMount() {
         fetch("https://api.blockchain.info/stats")
             .then(res => res.json())
