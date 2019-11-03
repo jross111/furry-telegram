@@ -1,5 +1,6 @@
 import React from 'react';
 import useStyles from '../styles/AppStyles';
+import TodoApp from './TodoApp';
 
 function App(){
     const classes = useStyles();
@@ -10,6 +11,7 @@ function App(){
                 <h1>
                     to<span>do</span>
                 </h1>
+                <TodoApp />
                 <h2>
                     Do these things.
                 </h2>
