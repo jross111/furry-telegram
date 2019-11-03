@@ -2,10 +2,11 @@
   background-color: thistle;
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
 }
 
 .btc {
-  border-color: green;
+  border-color: black;
   border-width: 5px;
   border-style: inset;
   flex: auto;
@@ -16,7 +17,7 @@
   padding: 1em;
   max-width: 50%;
 
-  background-color: grey;
+  background-color: #E93F33;
 }
 
 p {

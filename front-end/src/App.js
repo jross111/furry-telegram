@@ -10,9 +10,6 @@ function App() {
       </header>
     
       < BlockchainData />
-      < BlockchainData />
-      < BlockchainData />
-      < BlockchainData />
 
     </div>
   );
